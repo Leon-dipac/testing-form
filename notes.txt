@@ -1,1 +1,27 @@
-Hello
+--> Log into your GitHub account and create a new repository wthout a ' Readme ' file
+
+--> From your local computer navigate to the folder where you want to store the developed project
+
+--> Open your terminal on from that directory and run :
+
+    $ code .
+
+    -> From VS Code Terminal, please clone the created empty repository for this project :
+
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+--> Step 1: Setting up a React Application in the same directory
+
+    $ npx create-react-app .
+
+--> Step 2: Creating the Contact Form Component
+
+    Create a new file ' ContactForm.js ' in the src directory for the contact form component.
+
+--> Step 3: Integrating the Contact Form Component
+
+    Modify ' App.js ' to include the ' ContactForm ' component.
+
+--> Step 4: Running your React Application
+
+    $ npm start
